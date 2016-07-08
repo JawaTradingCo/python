@@ -2,6 +2,9 @@ import datetime
 import sys, getopt
 import string
 
+# usage: age.py yyyy-mm-dd
+# example: age.py 1972-05-07
+
 def calculate_age(argv):
     for arg in argv:
         d = arg.split("-",2)
