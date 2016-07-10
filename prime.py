@@ -1,8 +1,3 @@
-﻿import datetime
-import sys, getopt
-import re
-import MySQLdb
-
 # python prime number generator
 
 def isNotPrime(p,i):
