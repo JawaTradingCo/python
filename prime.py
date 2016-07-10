@@ -5,8 +5,6 @@ import MySQLdb
 
 # python prime number generator
 
-tup1 = ("Bobba","Jango","IG-88")
-
 def isNotPrime(p,i):
 	return p % i == 0 and i != p and i != 1
 
